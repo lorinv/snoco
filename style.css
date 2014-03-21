@@ -1,0 +1,90 @@
+@font-face
+{
+font-family: centuryGothic;
+src: url(fonts/GOTHIC.TTF);
+}
+
+body{
+	font-family:centuryGothic;
+}
+
+#title{
+	width:100%;
+	height:140px;
+	background-color:#7d7164;
+}
+
+.logo1{
+	width:160px;
+	height:135px;
+	padding-right:100px;
+}	
+
+.nav{
+	list-style-type:none;
+	padding-top:20px;
+	padding-right:25px;
+}
+
+.navElement{
+	display:inline;
+	padding-left:30px;
+	color:white;
+	font-size:.85em;
+}
+
+li:hover{
+	text-decoration:underline;
+}
+
+#frontImage{
+	background-image:url('images/frontImage.png');
+	width:800px;
+	height:300px;
+	background-size:100%;
+	background-repeat:no-repeat;
+	margin: 0px auto;
+	margin-top:20px;
+}
+
+#quote{
+	width:100%;
+	height:45px;
+	background-color:#463f37;
+	margin-left:auto;
+	margin-right:0;
+	text-align:right;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+	margin-top:20px;
+}
+
+#quote_num{
+	padding-right:20px;
+	padding-top:10px;
+}
+.mainContent{
+	width:470px;
+	padding-right:30px;
+	font-size:.85em;
+	padding-bottom:40px;
+}
+
+.contactBox{
+	width:300px;
+	background-color:#7d7164;
+	color:white;
+	padding-bottom:10px;
+		
+}
+
+.icon{
+	width:40px;
+	padding-right:20px;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+p{
+	color:white;
+}
